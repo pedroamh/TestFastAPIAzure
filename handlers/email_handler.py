@@ -1,7 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-#from email.mime.base import MIMEBasepip
+from email.mime.base import MIMEBase
 from email import encoders
 import smtplib
 from utils.comUtil import cargar_archivo_configuracion
